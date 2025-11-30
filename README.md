@@ -138,3 +138,84 @@ CTRL + C
 ---
 
 If you want to simplify this further, see the **Docker section** below.
+---
+
+## 🐳 Running Blur2Reveal with Docker
+
+Docker makes it easy to run the entire project (backend + frontend) without installing Python or Node.js.
+
+### 📁 Required Files in the Repository
+
+These files must exist:
+
+```
+backend/Dockerfile
+frontend/Dockerfile
+docker-compose.yml
+```
+
+They are already included in this project.
+
+---
+
+## 🚀 1. Build & Start Everything
+
+From the project root:
+
+```bash
+docker compose up --build
+```
+
+This will:
+
+- Build the FastAPI backend image  
+- Build the React frontend image  
+- Start both services together  
+
+---
+
+## 🌐 2. Access the App
+
+Frontend (React):
+👉 http://localhost:3000
+
+Backend API (FastAPI):
+👉 http://localhost:8000
+
+API Documentation (Swagger):
+👉 http://localhost:8000/docs
+
+---
+
+## 🛑 3. Stop the App
+
+Press:
+
+```
+CTRL + C
+```
+
+Or use:
+
+```bash
+docker compose down
+```
+
+---
+
+## 🧼 4. Rebuild After Code Changes
+
+```bash
+docker compose up --build
+```
+
+---
+
+## 🐳 Why Use Docker?
+
+- No Python or Node installation required  
+- Same environment on every computer  
+- Simple to run for collaborators  
+- Easy to deploy later  
+
+If you want a **production-ready Docker setup** (nginx, SSL, optimized builds), just ask.
