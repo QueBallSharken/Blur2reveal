@@ -1,29 +1,191 @@
-# Blur2reveal: BBIS-Governed Asset Platform
+# Blur2Reveal (B2R)
 
-A full-stack FastAPI + React platform for token-based image unlocking, integrated with **Boundary-to-Boundary Invariant Survival (BBIS)** and execution-boundary governance for secure payload delivery.
+## Governed Reveal Architecture
 
-Blur2reveal serves as both a functional digital content platform and a live architectural showcase. Creators upload images with blurred previews, and users unlock full-resolution versions using tokens—governed by runtime invariant checks to ensure security context validity at the exact point of execution.
+Blur2Reveal transforms reveal operations into governed reveal operations.
+
+The primary product is governance.
+
+Reveal is the consequence of governance.
+
+---
+
+## Core Principle
+
+Traditional systems ask:
+
+    Can this be revealed?
+
+Blur2Reveal asks:
+
+    Should this be revealed?
+
+A reveal operation must satisfy governance requirements before disclosure occurs.
 
 ---
 
-## 🚀 Features & Architecture
+## Repository Mission
 
-### ✔️ Current Core & Security Architecture
-- FastAPI backend (Python) with **BBIS Boundary Enforcement Middleware**
-- React frontend (Create React App / Vite)
-- User registration & login with cryptographic session state tracking
-- Creator mode for adding secured assets
-- Blurred preview gallery with live invariant verification
-- Token-based unlock system with execution-boundary checks
-- Demo token wallet (add 50 tokens instantly)
-- Unlock history per user with signed audit records
+Blur2Reveal serves as the integration point for governed disclosure.
 
-### 🔜 Coming Soon
-- Stripe payments for token purchases  
-- PostgreSQL database (Supabase recommended) with immutable state logging  
-- Real image uploads with automated semantic validation  
-- Secure storage (S3 / R2 / Supabase Storage) with cryptographic envelope validation  
-- JWT & Hardware-backed token authentication  
-- Creator dashboard (earnings, security telemetry, stats)  
+The repository is being developed to determine whether governance, continuity, evidence, authorization, and execution controls can be enforced before reveal operations occur.
 
 ---
+
+## Governing Flow
+
+Request
+ ?
+Governance (GDP)
+ ?
+Lineage Validation (AIC)
+ ?
+Boundary Evidence (BEAF)
+ ?
+Execution Authorization (DTPE)
+ ?
+Receipt
+ ?
+Payment
+ ?
+Reveal
+
+---
+
+## Component Alignment
+
+### GDP
+
+Governance Decision Proof
+
+Question:
+
+    Should this happen?
+
+### AIC
+
+Active Invariant Cloning
+
+Question:
+
+    Did the governing invariant survive?
+
+### BEAF
+
+Boundary Evidence Analysis Framework
+
+Question:
+
+    What evidence supports the decision?
+
+### DTPE
+
+Deterministic Trusted Policy Execution
+
+Question:
+
+    Can the boundary execute?
+
+### IRONCLAD
+
+Continuity and execution assurance.
+
+### BBIS
+
+Boundary-to-Boundary Invariant Survival.
+
+Identifies and evaluates irreversible execution boundaries.
+
+---
+
+## Current Repository State
+
+The current repository contains:
+
+- FastAPI backend
+- React frontend
+- Docker deployment configuration
+- Governance integration scaffolding
+- GDP adapter
+- AIC adapter placeholder
+- BEAF adapter placeholder
+- DTPE adapter placeholder
+- Governance doorway orchestration
+
+Current authorization path:
+
+    GDP
+     ?
+    AIC
+     ?
+    BEAF
+     ?
+    DTPE
+     ?
+    Reveal
+
+Current implementation remains fail-closed.
+
+If governance cannot be established, reveal is denied.
+
+---
+
+## Repository Documentation
+
+See:
+
+- docs/MASTER_HANDOFF.md
+- docs/SESSION_HANDOFF.md
+- docs/CHANGE_CONTROL.md
+- docs/CURRENT_IMPLEMENTATION_STATE.md
+
+These documents preserve repository continuity and implementation status.
+
+---
+
+## Development Status
+
+Current focus:
+
+- Governance integration
+- Lineage validation integration
+- Boundary evidence integration
+- DTPE authorization integration
+- Receipt generation
+
+Current focus is NOT:
+
+- Marketplace development
+- Token economics
+- Payment processing
+- Monetization workflows
+
+Governance path construction comes first.
+
+---
+
+## Repository Rule
+
+The repository is the source of truth.
+
+Documentation summarizes repository state.
+
+If documentation and repository artifacts disagree:
+
+The repository wins.
+
+Always.
+
+---
+
+## Final Statement
+
+Governance is the product.
+
+Reveal is the consequence.
+
+Authorization must exist before disclosure.
+
+Evidence must exist before authorization.
+
+Continuity must exist before execution.
