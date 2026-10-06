@@ -6,7 +6,6 @@ from typing import Any, Dict
 
 from governance.contract import RevealAuthorizationRequest
 from governance.aic_bridge import (
-    bridge_available,
     verify_aic_receipt,
 )
 
@@ -143,3 +142,4 @@ def lineage_provider() -> str:
         return "AIC"
 
     return "LOCAL_PLACEHOLDER"
+
